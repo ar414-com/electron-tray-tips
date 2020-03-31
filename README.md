@@ -21,7 +21,7 @@ npm install electron-tray-tips
 ## Usage
 ```javascript
 ...
-
+const { Tray } = require('electron');
 const ElectronTrayTips = require('electron-tray-tips');
 const ElectronTrayTipsClass = new ElectronTrayTips(this.tray);
 

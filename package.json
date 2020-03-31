@@ -1,0 +1,23 @@
+{
+  "name": "electron-tray-tips",
+  "version": "0.1.1",
+  "description": "Used to display preview window when Electron.Tray cursor is focused on tray",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar414-com/electron-tray-tips.git"
+  },
+  "author": {
+    "name": "ar414",
+    "email": "root@ar414.com",
+    "url": "https://ar414.com"
+  },
+  "dependencies": {
+    "electron": "^8.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ar414-com/electron-tray-tips/issues"
+  },
+  "homepage": "https://github.com/ar414-com/electron-tray-tips#readme"
+}

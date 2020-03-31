@@ -23,11 +23,11 @@ npm install electron-tray-tips
 ...
 const { Tray } = require('electron');
 const ElectronTrayTips = require('electron-tray-tips');
-const ElectronTrayTipsClass = new ElectronTrayTips(this.tray);
 
 let tray = new Tray('tray26.ico');
 let isBalloonShow = false;
 tray.setToolTip('ar414');
+const ElectronTrayTipsClass = new ElectronTrayTips(tray);
 this.tray.addListener('mouse-move',((event, position) => {
     
      if(!this.isBalloonShow){

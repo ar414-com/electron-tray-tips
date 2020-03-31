@@ -10,7 +10,7 @@
 Used to display preview window when Electron.Tray cursor is focused on tray
 
 ## effect
-
+![electron-tray-tips-bottom](https://cdn.ar414.com/electron-tray-tips-bottom.gif)
 
 
 ## Install
